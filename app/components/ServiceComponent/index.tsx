@@ -9,14 +9,14 @@ import ArrowForwardIcon from '@mui/icons-material/ArrowForward';
 const useStyles = makeStyles((theme) => ({
   root: {
     flexGrow: 1,
-    height: '90vh',
+    height: '60vh',
     padding: "2px",
     marginTop: '4rem',
   },
   buttonList: {
     display: 'flex',
     flexDirection: 'column',
-    justifyContent: 'center',
+    justifyContent: 'flex-start',
     alignItems: 'flex-start',
   },
   button: {
@@ -32,7 +32,6 @@ const useStyles = makeStyles((theme) => ({
   },
   content: {
     padding: "2px",
-    backgroundColor: 'white',
     textAlign: 'justify',
     color: 'grey',
   },

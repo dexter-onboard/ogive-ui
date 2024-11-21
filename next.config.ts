@@ -6,7 +6,8 @@ const nextConfig: NextConfig = {
       domains: ['newsite.ogivetechnology.com', 
         'caltechsites-prod.s3.amazonaws.com',
         'img.freepik.com',
-        'cdn-bbaid.nitrocdn.com'
+        'cdn-bbaid.nitrocdn.com',
+        'via.placeholder.com'
       ],
     },
 };
